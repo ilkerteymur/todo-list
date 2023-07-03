@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #758675, #3ba3aa);
+  font-family: sans-serif;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+.container #title {
+  text-align: center;
+  font-size: 50px;
+  background-image: linear-gradient(45deg, #403d41 33%, #414044 66%, #49585e 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+  font-family: "Caprasimo", cursive;
+}
+.container #inputText {
+  width: 250px;
+  height: 46px;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+  border: 3px solid rgb(142, 186, 201);
+  border-radius: 15px;
+  color: rgb(46, 40, 40);
+}
+.container #addToDo {
+  height: 45px;
+  width: 80px;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+  background-color: #766caf;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+.container #addToDo:active {
+  background-color: #61a1bb;
+}
+.container #clearToDo {
+  height: 45px;
+  width: 80px;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(140, 144, 150);
+  color: rgb(255, 246, 246);
+  text-align: center;
+  border-radius: 10px;
+}
+.container #clearToDo:active {
+  background: #603c64;
+}
+.container .to-dos {
+  margin-top: 25px;
+}
+.container .paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 35px;
+  color: #0b4b64;
+  text-transform: capitalize;
+}/*# sourceMappingURL=style.css.map */
